@@ -7,10 +7,8 @@ sites:
     url: https://www.google.com
   - name: Jagoanssh
     url: https://jagoanssh.com
-    icon: https://www.jagoanssh.com/favicon.png
   - name: Serverssh.net
     url: https://serverssh.net
-    icon: https://serverssh.net/assets/img/brand/favicon.png
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
