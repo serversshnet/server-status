@@ -58,18 +58,20 @@
     "url": "id3tr.jagoan.vip",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "id3tr-jagoan-vip",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.91%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
     "time": 1477,
     "timeDay": 1477,
     "timeWeek": 1477,
     "timeMonth": 1477,
     "timeYear": 1477,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-07-09": 0
+    }
   },
   {
     "name": "id4tr.jagoan.vip",
