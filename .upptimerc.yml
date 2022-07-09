@@ -8,13 +8,16 @@ sites:
     maxResponseTime: 5000
     expectedStatusCodes:
      - 200
-  - name: Youtube.com
-    url: https://youtube.com
   - name: Jagoanssh
-    url: https://jagoanssh.com/
+    url: https://www.jagoanssh.com
     maxResponseTime: 5000
     expectedStatusCodes:
      - 200
+    __dangerous__insecure: true
+  - name: idtr.jagoan.vip
+    url: idtr.jagoan.vip
+  - name: id2tr.jagoan.vip
+    url: id2tr.jagoan.vip
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
