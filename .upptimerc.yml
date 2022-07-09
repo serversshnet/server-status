@@ -22,10 +22,10 @@ status-website:
   introTitle: "Monitor server status for jagoanssh and serversh."
   introMessage: This is a server status page that uses real-time data from.
   navbar:
-  - title: Serverssh
-    href: https://serverssh.net
-  - title: GitHub
-    href: https://github.com/$OWNER/$REPO
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
