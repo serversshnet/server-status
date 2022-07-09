@@ -16,8 +16,10 @@ sites:
     __dangerous__insecure: true
   - name: idtr.jagoan.vip
     url: idtr.jagoan.vip
+    method: GET
   - name: id2tr.jagoan.vip
     url: id2tr.jagoan.vip
+    method: GET
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
