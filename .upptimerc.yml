@@ -10,186 +10,217 @@ sites:
      - 200
   - name: idtr.jagoan.vip
     url: idtr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: id2tr.jagoan.vip
     url: id2tr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: id3tr.jagoan.vip
     url: id3tr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: id4tr.jagoan.vip
     url: id4tr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: id5tr.jagoan.vip
     url: id5tr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: id6tr.jagoan.vip
     url: id6tr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: sgtr.jagoan.vip
     url: sgtr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: sg2tr.jagoan.vip
     url: sg2tr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: sg3tr.jagoan.vip
     url: sg3tr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: biztr.jagoan.vip
     url: biztr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: biz2tr.jagoan.vip
     url: biz2tr.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: idray.jagoan.vip
     url: idray.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: id2ray.jagoan.vip
     url: id2ray.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: id3ray.jagoan.vip
     url: id3ray.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: bizray.jagoan.vip
     url: bizray.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: biz2ray.jagoan.vip
     url: biz2ray.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: sgray.jagoan.vip
     url: sgray.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: sg2ray.jagoan.vip
     url: sg2ray.jagoan.vip
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: vvip.ipservers.xyz:10000
     url: vvip.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
   - name: sg2vvip.ipservers.xyz:10000
     url: sg2vvip.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: sg3vvip.ipservers.xyz:10000
     url: sg3vvip.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: idvvip.ipservers.xyz:10000
     url: idvvip.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: id2vvip.ipservers.xyz:10000
     url: id2vvip.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: id3vvip.ipservers.xyz:10000
     url: id3vvip.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: id4vvip.ipservers.xyz:10000
     url: id4vvip.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: id5vvip.ipservers.xyz:10000
     url: id5vvip.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: sby.ipservers.xyz:10000
     url: sby.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: biznet.ipservers.xyz:10000
     url: biznet.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: biznet2.ipservers.xyz:10000
     url: biznet2.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: sgltp.ipservers.xyz:10000
     url: sgltp.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
   - name: idltp.ipservers.xyz:10000
     url: idltp.ipservers.xyz
+    maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
@@ -205,10 +236,8 @@ status-website:
   introTitle: "Monitor server status for jagoanssh and serversh."
   introMessage: This is a server status page that uses real-time data from.
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Serverssh
+      href: https://serverssh.net
   theme: dark
   
 # Upptime also supports notifications, assigning issues, and more
