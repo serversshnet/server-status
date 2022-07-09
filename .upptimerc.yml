@@ -5,13 +5,14 @@ repo: server-status # The name of this repository
 sites:
   - name: Serverssh
     url: https://serverssh.net
-     maxResponseTime: 5000
-     expectedStatusCodes:
-     - 200
+    maxResponseTime: 5000
+    expectedStatusCodes:
+    - 200
   - name: Youtube.com
     url: https://youtube.com
   - name: Jagoanssh
     url: https://jagoanssh.com
+    maxResponseTime: 5000
     expectedStatusCodes:
     - 200
 
