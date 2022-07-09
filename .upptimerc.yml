@@ -8,14 +8,12 @@ sites:
      maxResponseTime: 5000
      expectedStatusCodes:
      - 200
-     - 502
   - name: Youtube.com
     url: https://youtube.com
   - name: Jagoanssh
     url: https://jagoanssh.com
     expectedStatusCodes:
-     - 200
-     - 502
+    - 200
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
