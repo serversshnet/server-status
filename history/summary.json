@@ -5,38 +5,18 @@
     "icon": "https://favicons.githubusercontent.com/serverssh.net",
     "slug": "serverssh",
     "status": "up",
-    "uptime": "47.83%",
-    "uptimeDay": "47.83%",
-    "uptimeWeek": "47.83%",
-    "uptimeMonth": "47.83%",
-    "uptimeYear": "47.83%",
-    "time": 176,
-    "timeDay": 176,
-    "timeWeek": 176,
-    "timeMonth": 176,
-    "timeYear": 176,
+    "uptime": "50.61%",
+    "uptimeDay": "50.61%",
+    "uptimeWeek": "50.61%",
+    "uptimeMonth": "50.61%",
+    "uptimeYear": "50.61%",
+    "time": 193,
+    "timeDay": 193,
+    "timeWeek": 193,
+    "timeMonth": 193,
+    "timeYear": 193,
     "dailyMinutesDown": {
       "2022-07-09": 26
-    }
-  },
-  {
-    "name": "Jagoanssh",
-    "url": "https://www.jagoanssh.com",
-    "icon": "https://favicons.githubusercontent.com/www.jagoanssh.com",
-    "slug": "jagoanssh",
-    "status": "down",
-    "uptime": "69.56%",
-    "uptimeDay": "69.56%",
-    "uptimeWeek": "69.56%",
-    "uptimeMonth": "69.56%",
-    "uptimeYear": "69.56%",
-    "time": 91,
-    "timeDay": 91,
-    "timeWeek": 91,
-    "timeMonth": 91,
-    "timeYear": 91,
-    "dailyMinutesDown": {
-      "2022-07-09": 32
     }
   },
   {
@@ -44,19 +24,19 @@
     "url": "idtr.jagoan.vip",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "idtr-jagoan-vip",
-    "status": "down",
-    "uptime": "0.26%",
-    "uptimeDay": "0.26%",
-    "uptimeWeek": "0.26%",
-    "uptimeMonth": "0.26%",
-    "uptimeYear": "0.26%",
-    "time": 577,
-    "timeDay": 577,
-    "timeWeek": 577,
-    "timeMonth": 577,
-    "timeYear": 577,
+    "status": "up",
+    "uptime": "2.97%",
+    "uptimeDay": "2.97%",
+    "uptimeWeek": "2.97%",
+    "uptimeMonth": "2.97%",
+    "uptimeYear": "2.97%",
+    "time": 549,
+    "timeDay": 549,
+    "timeWeek": 549,
+    "timeMonth": 549,
+    "timeYear": 549,
     "dailyMinutesDown": {
-      "2022-07-09": 13
+      "2022-07-09": 16
     }
   },
   {
@@ -64,19 +44,99 @@
     "url": "id2tr.jagoan.vip",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "id2tr-jagoan-vip",
-    "status": "down",
-    "uptime": "0.19%",
-    "uptimeDay": "0.19%",
-    "uptimeWeek": "0.19%",
-    "uptimeMonth": "0.19%",
-    "uptimeYear": "0.19%",
-    "time": 614,
-    "timeDay": 614,
-    "timeWeek": 614,
-    "timeMonth": 614,
-    "timeYear": 614,
+    "status": "up",
+    "uptime": "2.79%",
+    "uptimeDay": "2.79%",
+    "uptimeWeek": "2.79%",
+    "uptimeMonth": "2.79%",
+    "uptimeYear": "2.79%",
+    "time": 575,
+    "timeDay": 575,
+    "timeWeek": 575,
+    "timeMonth": 575,
+    "timeYear": 575,
     "dailyMinutesDown": {
-      "2022-07-09": 13
+      "2022-07-09": 16
+    }
+  },
+  {
+    "name": "id3tr.jagoan.vip",
+    "url": "id3tr.jagoan.vip",
+    "icon": "https://favicons.githubusercontent.com/null",
+    "slug": "id3tr-jagoan-vip",
+    "status": "down",
+    "uptime": "20.56%",
+    "uptimeDay": "20.56%",
+    "uptimeWeek": "20.56%",
+    "uptimeMonth": "20.56%",
+    "uptimeYear": "20.56%",
+    "time": 1479,
+    "timeDay": 1479,
+    "timeWeek": 1479,
+    "timeMonth": 1479,
+    "timeYear": 1479,
+    "dailyMinutesDown": {
+      "2022-07-09": 0
+    }
+  },
+  {
+    "name": "id4tr.jagoan.vip",
+    "url": "id4tr.jagoan.vip",
+    "icon": "https://favicons.githubusercontent.com/null",
+    "slug": "id4tr-jagoan-vip",
+    "status": "down",
+    "uptime": "27.78%",
+    "uptimeDay": "27.78%",
+    "uptimeWeek": "27.78%",
+    "uptimeMonth": "27.78%",
+    "uptimeYear": "27.78%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2022-07-09": 0
+    }
+  },
+  {
+    "name": "id5tr.jagoan.vip",
+    "url": "id5tr.jagoan.vip",
+    "icon": "https://favicons.githubusercontent.com/null",
+    "slug": "id5tr-jagoan-vip",
+    "status": "down",
+    "uptime": "41.22%",
+    "uptimeDay": "41.22%",
+    "uptimeWeek": "41.22%",
+    "uptimeMonth": "41.22%",
+    "uptimeYear": "41.22%",
+    "time": 2965,
+    "timeDay": 2965,
+    "timeWeek": 2965,
+    "timeMonth": 2965,
+    "timeYear": 2965,
+    "dailyMinutesDown": {
+      "2022-07-09": 0
+    }
+  },
+  {
+    "name": "id6tr.jagoan.vip",
+    "url": "id6tr.jagoan.vip",
+    "icon": "https://favicons.githubusercontent.com/null",
+    "slug": "id6tr-jagoan-vip",
+    "status": "down",
+    "uptime": "41.60%",
+    "uptimeDay": "41.60%",
+    "uptimeWeek": "41.60%",
+    "uptimeMonth": "41.60%",
+    "uptimeYear": "41.60%",
+    "time": 1250,
+    "timeDay": 1250,
+    "timeWeek": 1250,
+    "timeMonth": 1250,
+    "timeYear": 1250,
+    "dailyMinutesDown": {
+      "2022-07-09": 0
     }
   }
 ]
