@@ -8,18 +8,30 @@ sites:
     maxResponseTime: 5000
     expectedStatusCodes:
      - 200
-  - name: Jagoanssh
-    url: https://www.jagoanssh.com
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 200
-    __dangerous__insecure: true
   - name: idtr.jagoan.vip
     url: idtr.jagoan.vip
-    method: GET
+    expectedStatusCodes:
+     - 400
   - name: id2tr.jagoan.vip
     url: id2tr.jagoan.vip
-    method: GET
+    expectedStatusCodes:
+     - 400
+  - name: id3tr.jagoan.vip
+    url: id3tr.jagoan.vip
+    expectedStatusCodes:
+     - 400
+  - name: id4tr.jagoan.vip
+    url: id4tr.jagoan.vip
+    expectedStatusCodes:
+     - 400
+  - name: id5tr.jagoan.vip
+    url: id5tr.jagoan.vip
+    expectedStatusCodes:
+     - 400
+  - name: id6tr.jagoan.vip
+    url: id6tr.jagoan.vip
+    expectedStatusCodes:
+     - 400
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
