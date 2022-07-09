@@ -4,17 +4,17 @@ repo: server-status # The name of this repository
 
 sites:
   - name: Serverssh
-    url: https://serverssh.net
+    url: https://serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
-    - 200
+     - 200
   - name: Youtube.com
     url: https://youtube.com
   - name: Jagoanssh
-    url: https://jagoanssh.com
+    url: https://jagoanssh.com/
     maxResponseTime: 5000
     expectedStatusCodes:
-    - 200
+     - 200
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -30,6 +30,15 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
+  theme: dark
+  
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+workflowSchedule:
+  graphs: "*/5 * * * *"
+  responseTime: "*/5 * * * *"
+  staticSite: "*/5 * * * *"
+  summary: "*/5 * * * *"
+  updateTemplate: "*/5 * * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
