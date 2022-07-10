@@ -225,119 +225,119 @@ sites:
      - 400
      - 200
      - 301
-- name: sgx1.serverssh.net
+  - name: sgx1.serverssh.net
     url: http://sgx1.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sgx2.serverssh.net
+  - name: sgx2.serverssh.net
     url: http://sgx2.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: cax.serverssh.net
+  - name: cax.serverssh.net
     url: http://cax.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: plx.serverssh.net
+  - name: plx.serverssh.net
     url: http://plx.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: dex.serverssh.net
+  - name: dex.serverssh.net
     url: http://dex.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: idx.serverssh.net
+  - name: idx.serverssh.net
     url: http://idx.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sgm1.serverssh.net
+  - name: sgm1.serverssh.net
     url: http://sgm1.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sgm2.serverssh.net
+  - name: sgm2.serverssh.net
     url: http://sgm2.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sgm3.serverssh.net
+  - name: sgm3.serverssh.net
     url: http://sgm3.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sgm4.serverssh.net
+  - name: sgm4.serverssh.net
     url: http://sgm4.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sgm5.serverssh.net
+  - name: sgm5.serverssh.net
     url: http://sgm5.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sgm6.serverssh.net
+  - name: sgm6.serverssh.net
     url: http://sgm6.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sg1vpn.serverssh.net
+  - name: sg1vpn.serverssh.net
     url: http://sg1vpn.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sg2vpn.serverssh.net
+  - name: sg2vpn.serverssh.net
     url: http://sg2vpn.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: idvpn.serverssh.net
+  - name: idvpn.serverssh.net
     url: http://idvpn.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sg1socks.serverssh.net
+  - name: sg1socks.serverssh.net
     url: http://sg1socks.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-- name: sg2socks.serverssh.net
+  - name: sg2socks.serverssh.net
     url: http://sg2socks.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
