@@ -23,13 +23,6 @@ sites:
      - 200
      - 301
   - name: sg3ray.serverssh.net
-    url: http://sg3ray.serverssh.net
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sg3ray.serverssh.net
     url: http://sg3ray.serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
