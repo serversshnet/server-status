@@ -344,21 +344,27 @@ status-website:
   cname: status.serverssh.net
   # baseUrl: /
   logoUrl: https://serverssh.net/assets/img/brand/favicon.png
-  name: Status
+  name: Serverssh.net
+  favicon: https://serverssh.net/assets/img/brand/favicon.png
   introTitle: "Monitor server status for services on serverssh.net"
   introMessage: This is a server status page that uses real-time data
   navbar:
-    - title: Serverssh.net
+    - title: Home
       href: https://serverssh.net
-  theme: dark
+  theme: night
+  metaTags:
+    - name: "color-scheme"
+      content: "dark light"
+    - name: "robots"
+      content: "noindex"
   
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 workflowSchedule:
-#  graphs: "*/5 * * * *"
-#  responseTime: "*/5 * * * *"
-#  staticSite: "*/5 * * * *"
-#  summary: "*/5 * * * *"
-#  updateTemplate: "*/5 * * * *"
-#  updates: "0 3 * * *"
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
   uptime: "*/5 * * * *"
