@@ -3,228 +3,347 @@ owner: serversshnet # Your GitHub organization or username, where this repositor
 repo: server-status # The name of this repository
 
 sites:
-  - name: Serverssh
+  - name: Serverssh.net
     url: https://serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 200
-  - name: idtr.jagoan.vip
-    url: http://idtr.jagoan.vip/http://
+  - name: sg1ray.serverssh.net
+    url: http://sg1ray.serverssh.net
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: id2tr.jagoan.vip
-    url: http://id2tr.jagoan.vip/http://
+  - name: sg2ray.serverssh.net
+    url: http://sg2ray.serverssh.net
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: id3tr.jagoan.vip
-    url: http://id3tr.jagoan.vip/
+  - name: sg3ray.serverssh.net
+    url: http://sg3ray.serverssh.net
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: id4tr.jagoan.vip
-    url: http://id4tr.jagoan.vip/
+  - name: sg3ray.serverssh.net
+    url: http://sg3ray.serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: id5tr.jagoan.vip
-    url: http://id5tr.jagoan.vip/
+  - name: ukray.serverssh.net
+    url: http://ukray.serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: id6tr.jagoan.vip
+  - name: ukray.serverssh.net
     url: http://id6tr.jagoan.vip/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: sgtr.jagoan.vip
-    url: http://sgtr.jagoan.vip/
+  - name: ca1ray.serverssh.net
+    url: http://ca1ray.serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: sg2tr.jagoan.vip
-    url: http://sg2tr.jagoan.vip/
+  - name: geray.serverssh.net
+    url: http://geray.serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: sg3tr.jagoan.vip
-    url: http://sg3tr.jagoan.vip/
+  - name: sgm1ray.serverssh.net
+    url: http://sgm1ray.serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: biztr.jagoan.vip
-    url: http://biztr.jagoan.vip/
+  - name: sg1grpc.serverssh.us
+    url: http://sg1grpc.serverssh.us/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: biz2tr.jagoan.vip
-    url: http://biz2tr.jagoan.vip/
+  - name: sg2grpc.serverssh.us
+    url: http://sg2grpc.serverssh.us/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: idray.jagoan.vip
-    url: http://idray.jagoan.vip/
+  - name: ca1grpc.serverssh.us
+    url: http://ca1grpc.serverssh.us/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: id2ray.jagoan.vip
-    url: http://id2ray.jagoan.vip/
+  - name: degrpc.serverssh.us
+    url: http://degrpc.serverssh.us/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: id3ray.jagoan.vip
-    url: http://id3ray.jagoan.vip/
+  - name: ukgrpc.serverssh.us
+    url: http://ukgrpc.serverssh.us/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: bizray.jagoan.vip
-    url: http://bizray.jagoan.vip/
+  - name: sgmgrpc.serverssh.us
+    url: http://sgmgrpc.serverssh.us/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: biz2ray.jagoan.vip
-    url: http://biz2ray.jagoan.vip/
+  - name: sg1.serverssh.net
+    url: http://sg1.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: sgray.jagoan.vip
-    url: http://sgray.jagoan.vip/
+  - name: sg2.serverssh.net
+    url: http://sg2.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: sg2ray.jagoan.vip
-    url: http://sg2ray.jagoan.vip/
+  - name: sg3.serverssh.net
+    url: http://sg3.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: vvip.ipservers.xyz
-    url: http://vvip.ipservers.xyz:10000/
+  - name: ca.serverssh.net
+    url: http://ca.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301
-  - name: sg2vvip.ipservers.xyz
-    url: http://sg2vvip.ipservers.xyz:10000/
+  - name: ge.serverssh.net
+    url: http://ge.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: sg3vvip.ipservers.xyz
-    url: http://sg3vvip.ipservers.xyz:10000/
+  - name: fr.serverssh.net
+    url: http://fr.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: idvvip.ipservers.xyz
-    url: http://idvvip.ipservers.xyz:10000/
+  - name: po.serverssh.net
+    url: http://po.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: id2vvip.ipservers.xyz
-    url: http://id2vvip.ipservers.xyz:10000/
+  - name: id.serverssh.net
+    url: http://id.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: id3vvip.ipservers.xyz
-    url: http://id3vvip.ipservers.xyz:10000/
+  - name: SG1 SLOW DNS
+    url: http://sg1.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: id4vvip.ipservers.xyz
-    url: http://id4vvip.ipservers.xyz:10000/
+  - name: SG2 SLOW DNS
+    url: http://sg2.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: id5vvip.ipservers.xyz
-    url: http://id5vvip.ipservers.xyz:10000/
+  - name: CA SLOW DNS
+    url: http://ca.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: sby.ipservers.xyz
-    url: http://sby.ipservers.xyz:10000/
+  - name: FR SLOW DNS
+    url: http://fr.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: biznet.ipservers.xyz
-    url: http://biznet.ipservers.xyz:10000/
+  - name: GE SLOW DNS
+    url: http://ge.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: biznet2.ipservers.xyz
-    url: http://biznet2.ipservers.xyz:10000/
+  - name: UK SLOW DNS
+    url: http://ukray.serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: sgltp.ipservers.xyz
-    url: http://sgltp.ipservers.xyz:10000/
+  - name: SGX SLOW DNS
+    url: http://sg1ray.serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
      - 301 
-  - name: idltp.ipservers.xyz
-    url: http://idltp.ipservers.xyz:10000/
+  - name: SG2X SLOW DNS
+    url: http://sg3ray.serverssh.net/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
      - 200
-     - 301 
+     - 301
+- name: sgx1.serverssh.net
+    url: http://sgx1.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sgx2.serverssh.net
+    url: http://sgx2.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: cax.serverssh.net
+    url: http://cax.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: plx.serverssh.net
+    url: http://plx.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: dex.serverssh.net
+    url: http://dex.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: idx.serverssh.net
+    url: http://idx.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sgm1.serverssh.net
+    url: http://sgm1.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sgm2.serverssh.net
+    url: http://sgm2.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sgm3.serverssh.net
+    url: http://sgm3.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sgm4.serverssh.net
+    url: http://sgm4.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sgm5.serverssh.net
+    url: http://sgm5.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sgm6.serverssh.net
+    url: http://sgm6.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sg1vpn.serverssh.net
+    url: http://sg1vpn.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sg2vpn.serverssh.net
+    url: http://sg2vpn.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: idvpn.serverssh.net
+    url: http://idvpn.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sg1socks.serverssh.net
+    url: http://sg1socks.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
+- name: sg2socks.serverssh.net
+    url: http://sg2socks.serverssh.net:10000/
+    maxResponseTime: 5000
+    expectedStatusCodes:
+     - 400
+     - 200
+     - 301
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
