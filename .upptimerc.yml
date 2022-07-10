@@ -351,7 +351,7 @@ status-website:
   navbar:
     - title: Home
       href: https://serverssh.net
-  theme: night
+  theme: ocean
   metaTags:
     - name: "color-scheme"
       content: "dark light"
