@@ -343,12 +343,12 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.serverssh.net
   # baseUrl: /
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "Monitor server status for jagoanssh and serversh."
-  introMessage: This is a server status page that uses real-time data from.
+  logoUrl: https://serverssh.net/assets/img/brand/favicon.png
+  name: Status
+  introTitle: "Monitor server status for services on serverssh.net"
+  introMessage: This is a server status page that uses real-time data
   navbar:
-    - title: Serverssh
+    - title: Serverssh.net
       href: https://serverssh.net
   theme: dark
   
