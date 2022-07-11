@@ -400,18 +400,20 @@
     "url": "http://id.serverssh.net:10000/",
     "icon": "https://favicons.githubusercontent.com/id.serverssh.net",
     "slug": "id-serverssh-net",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.91%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
     "time": 2706,
     "timeDay": 2706,
     "timeWeek": 2706,
     "timeMonth": 2706,
     "timeYear": 2706,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-07-11": 1
+    }
   },
   {
     "name": "SG1 SLOW DNS",
