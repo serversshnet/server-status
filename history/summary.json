@@ -400,19 +400,19 @@
     "url": "http://id.serverssh.net:10000/",
     "icon": "https://favicons.githubusercontent.com/id.serverssh.net",
     "slug": "id-serverssh-net",
-    "status": "degraded",
-    "uptime": "99.96%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.96%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "99.96%",
-    "time": 5573,
-    "timeDay": 5573,
-    "timeWeek": 5573,
-    "timeMonth": 5573,
-    "timeYear": 5573,
+    "status": "up",
+    "uptime": "99.07%",
+    "uptimeDay": "99.07%",
+    "uptimeWeek": "99.07%",
+    "uptimeMonth": "99.07%",
+    "uptimeYear": "99.07%",
+    "time": 5139,
+    "timeDay": 5139,
+    "timeWeek": 5139,
+    "timeMonth": 5139,
+    "timeYear": 5139,
     "dailyMinutesDown": {
-      "2022-07-11": 0
+      "2022-07-11": 10
     }
   },
   {
