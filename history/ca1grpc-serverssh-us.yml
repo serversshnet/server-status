@@ -1,7 +1,7 @@
 url: http://ca1grpc.serverssh.us/
-status: degraded
+status: up
 code: 200
-responseTime: 7005
-lastUpdated: 2022-08-07T10:34:05.334Z
+responseTime: 662
+lastUpdated: 2022-08-07T10:41:52.667Z
 startTime: Sun Jul 10 2022 18:13:48 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
