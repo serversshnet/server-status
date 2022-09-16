@@ -36,13 +36,6 @@ sites:
      - 400
      - 200
      - 301
-  - name: ukray.serverssh.net
-    url: http://id6tr.jagoan.vip/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
   - name: ca1ray.serverssh.net
     url: http://ca1ray.serverssh.net/
     maxResponseTime: 5000
@@ -155,13 +148,6 @@ sites:
      - 400
      - 200
      - 301 
-  - name: id.serverssh.net
-    url: http://id.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
   - name: SG1 SLOW DNS
     url: http://sg1.serverssh.net:10000/
     maxResponseTime: 5000
@@ -253,13 +239,6 @@ sites:
      - 400
      - 200
      - 301
-  - name: idx.serverssh.net
-    url: http://idx.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
   - name: sgm1.serverssh.net
     url: http://sgm1.serverssh.net:10000/
     maxResponseTime: 5000
@@ -311,13 +290,6 @@ sites:
      - 301
   - name: sg2vpn.serverssh.net
     url: http://sg2vpn.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: idvpn.serverssh.net
-    url: http://idvpn.serverssh.net:10000/
     maxResponseTime: 5000
     expectedStatusCodes:
      - 400
