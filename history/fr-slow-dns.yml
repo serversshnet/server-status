@@ -1,7 +1,7 @@
 url: http://fr.serverssh.net:10000/
-status: degraded
+status: up
 code: 200
-responseTime: 9283
-lastUpdated: 2022-09-20T11:48:26.454Z
+responseTime: 484
+lastUpdated: 2022-09-20T12:12:33.045Z
 startTime: Sun Jul 10 2022 18:14:11 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
