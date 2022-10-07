@@ -1,7 +1,7 @@
 url: http://sg1ray.serverssh.net
-status: up
+status: degraded
 code: 200
-responseTime: 1555
-lastUpdated: 2022-10-06T23:17:17.810Z
+responseTime: 7246
+lastUpdated: 2022-10-07T04:27:26.250Z
 startTime: Sun Jul 10 2022 18:13:30 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
