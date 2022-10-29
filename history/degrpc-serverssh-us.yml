@@ -1,7 +1,7 @@
 url: http://degrpc.serverssh.us/
-status: up
+status: degraded
 code: 200
-responseTime: 1241
-lastUpdated: 2022-10-28T23:15:33.043Z
+responseTime: 16236
+lastUpdated: 2022-10-29T02:57:38.622Z
 startTime: Sun Jul 10 2022 18:13:49 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
