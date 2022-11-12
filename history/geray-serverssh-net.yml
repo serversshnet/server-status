@@ -1,7 +1,7 @@
 url: http://geray.serverssh.net/
-status: up
+status: degraded
 code: 200
-responseTime: 1026
-lastUpdated: 2022-11-11T23:13:36.402Z
+responseTime: 9775
+lastUpdated: 2022-11-12T17:23:16.153Z
 startTime: Sun Jul 10 2022 18:13:41 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
