@@ -1,7 +1,7 @@
 url: http://ca1ray.serverssh.net/
-status: up
+status: degraded
 code: 200
-responseTime: 3924
-lastUpdated: 2022-11-12T18:48:47.975Z
+responseTime: 25240
+lastUpdated: 2022-11-12T19:01:08.052Z
 startTime: Sun Jul 10 2022 18:13:40 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
