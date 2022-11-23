@@ -1,7 +1,7 @@
 url: http://sg1grpc.serverssh.us/
-status: up
+status: degraded
 code: 400
-responseTime: 3877
-lastUpdated: 2022-11-23T10:10:43.216Z
+responseTime: 5968
+lastUpdated: 2022-11-23T10:32:27.514Z
 startTime: Sun Jul 10 2022 18:13:45 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
