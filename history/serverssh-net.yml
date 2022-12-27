@@ -1,7 +1,7 @@
 url: https://serverssh.net/
-status: degraded
+status: down
 code: 503
-responseTime: 7707
-lastUpdated: 2022-12-27T15:41:00.813Z
+responseTime: 1733
+lastUpdated: 2022-12-27T15:51:31.501Z
 startTime: Sun Jul 10 2022 18:13:30 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
