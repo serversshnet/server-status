@@ -4,45 +4,22 @@ repo: server-status # The name of this repository
 
 sites:
   - name: Serverssh.net
-    url: https://serverssh.net/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 200
+    check: "tcp-ping"
+    url: serverssh.net
   - name: sg1ray.serverssh.net
     url: http://sg1ray.serverssh.net
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    check: "tcp-ping"
   - name: sg2ray.serverssh.net
-    url: http://sg2ray.serverssh.net
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    check: "tcp-ping"
   - name: sg3ray.serverssh.net
     url: http://sg3ray.serverssh.net/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    check: "tcp-ping"
   - name: ukray.serverssh.net
     url: http://ukray.serverssh.net/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    check: "tcp-ping"
   - name: ca1ray.serverssh.net
     url: http://ca1ray.serverssh.net/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    check: "tcp-ping"
   - name: geray.serverssh.net
     url: http://geray.serverssh.net/
     maxResponseTime: 5000
