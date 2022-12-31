@@ -11,15 +11,16 @@ sites:
     check: "tcp-ping"
   - name: sg2ray.serverssh.net
     check: "tcp-ping"
+    url: sg2ray.serverssh.net
   - name: sg3ray.serverssh.net
-    url: http://sg3ray.serverssh.net/
     check: "tcp-ping"
+    url: sg3ray.serverssh.net
   - name: ukray.serverssh.net
-    url: http://ukray.serverssh.net/
     check: "tcp-ping"
+    url: ukray.serverssh.net
   - name: ca1ray.serverssh.net
-    url: http://ca1ray.serverssh.net/
     check: "tcp-ping"
+    url: ca1ray.serverssh.net
   - name: geray.serverssh.net
     url: http://geray.serverssh.net/
     maxResponseTime: 5000
