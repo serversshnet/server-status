@@ -7,7 +7,7 @@ sites:
     check: "tcp-ping"
     url: serverssh.net
   - name: sg1ray.serverssh.net
-    url: http://sg1ray.serverssh.net
+    url: sg1ray.serverssh.net
     check: "tcp-ping"
   - name: sg2ray.serverssh.net
     check: "tcp-ping"
@@ -22,82 +22,38 @@ sites:
     check: "tcp-ping"
     url: ca1ray.serverssh.net
   - name: geray.serverssh.net
-    url: http://geray.serverssh.net/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    check: "tcp-ping"
+    url: geray.serverssh.net
   - name: sgm1ray.serverssh.net
-    url: http://sgm1ray.serverssh.net/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    check: "tcp-ping"
+    url: sgm1ray.serverssh.net
   - name: sg1grpc.serverssh.us
-    url: http://sg1grpc.serverssh.us/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    check: "tcp-ping"
+    url: sg1grpc.serverssh.us
   - name: sg2grpc.serverssh.us
-    url: http://sg2grpc.serverssh.us/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    check: "tcp-ping"
+    url: sg2grpc.serverssh.us
   - name: ca1grpc.serverssh.us
-    url: http://ca1grpc.serverssh.us/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    url: ca1grpc.serverssh.us
+    check: "tcp-ping"
   - name: degrpc.serverssh.us
-    url: http://degrpc.serverssh.us/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    url: degrpc.serverssh.us
+    check: "tcp-ping"
   - name: ukgrpc.serverssh.us
-    url: http://ukgrpc.serverssh.us/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
+    url: ukgrpc.serverssh.us
+    check: "tcp-ping"
   - name: sgmgrpc.serverssh.us
-    url: http://sgmgrpc.serverssh.us/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    url: sgmgrpc.serverssh.us
+    check: "tcp-ping"
   - name: sg1.serverssh.net
-    url: http://sg1.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
+    url: sg1.serverssh.net
+    check: "tcp-ping"
   - name: sg2.serverssh.net
-    url: http://sg2.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+    url: sg2.serverssh.net
+    check: "tcp-ping"
   - name: sg3.serverssh.net
-    url: http://sg3.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
+    url: sg3.serverssh.net
+    check: "tcp-ping"
   - name: ca.serverssh.net
     url: http://ca.serverssh.net:10000/
     maxResponseTime: 5000
