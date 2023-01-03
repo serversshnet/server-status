@@ -1,7 +1,7 @@
 url: http://sg1.serverssh.net:10000/
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-01-02T23:11:17.465Z
+status: up
+code: 200
+responseTime: 522
+lastUpdated: 2023-01-03T05:09:30.425Z
 startTime: Sun Jul 10 2022 18:14:08 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
