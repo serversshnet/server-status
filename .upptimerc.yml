@@ -123,9 +123,6 @@ sites:
  - name: ukray.serverssh.net
    check: "tcp-ping"
    url: ukray.serverssh.net
- - name: idvpn.serverssh.net
-   check: "tcp-ping"
-   url: idvpn.serverssh.net
  - name: sg1grpc.serverip.my.id
    check: "tcp-ping"
    url: sg1grpc.serverip.my.id
