@@ -3,246 +3,168 @@ owner: serversshnet # Your GitHub organization or username, where this repositor
 repo: server-status # The name of this repository
 
 sites:
-  - name: Serverssh.net
-    check: "tcp-ping"
-    url: serverssh.net
-  - name: sg1ray.serverssh.net
-    url: sg1ray.serverssh.net
-    check: "tcp-ping"
-  - name: sg2ray.serverssh.net
-    check: "tcp-ping"
-    url: sg2ray.serverssh.net
-  - name: sg3ray.serverssh.net
-    check: "tcp-ping"
-    url: sg3ray.serverssh.net
-  - name: ukray.serverssh.net
-    check: "tcp-ping"
-    url: ukray.serverssh.net
-  - name: ca1ray.serverssh.net
-    check: "tcp-ping"
-    url: ca1ray.serverssh.net
-  - name: geray.serverssh.net
-    check: "tcp-ping"
-    url: geray.serverssh.net
-  - name: sgm1ray.serverssh.net
-    check: "tcp-ping"
-    url: sgm1ray.serverssh.net
-  - name: sg1grpc.serverssh.us
-    check: "tcp-ping"
-    url: sg1grpc.serverssh.us
-  - name: sg2grpc.serverssh.us
-    check: "tcp-ping"
-    url: sg2grpc.serverssh.us
-  - name: ca1grpc.serverssh.us
-    url: ca1grpc.serverssh.us
-    check: "tcp-ping"
-  - name: degrpc.serverssh.us
-    url: degrpc.serverssh.us
-    check: "tcp-ping"
-  - name: ukgrpc.serverssh.us
-    url: ukgrpc.serverssh.us
-    check: "tcp-ping"
-  - name: sgmgrpc.serverssh.us
-    url: sgmgrpc.serverssh.us
-    check: "tcp-ping"
-  - name: sg1.serverssh.net
-    url: sg1.serverssh.net
-    check: "tcp-ping"
-  - name: sg2.serverssh.net
-    url: sg2.serverssh.net
-    check: "tcp-ping"
-  - name: sg3.serverssh.net
-    url: sg3.serverssh.net
-    check: "tcp-ping"
-  - name: ca.serverssh.net
-    url: http://ca.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: ge.serverssh.net
-    url: http://ge.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
-  - name: fr.serverssh.net
-    url: http://fr.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
-  - name: po.serverssh.net
-    url: http://po.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
-  - name: SG1 SLOW DNS
-    url: http://sg1.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
-  - name: SG2 SLOW DNS
-    url: http://sg2.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
-  - name: CA SLOW DNS
-    url: http://ca.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
-  - name: FR SLOW DNS
-    url: http://fr.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
-  - name: GE SLOW DNS
-    url: http://ge.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
-  - name: UK SLOW DNS
-    url: http://ukray.serverssh.net/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
-  - name: SGX SLOW DNS
-    url: http://sg1ray.serverssh.net/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301 
-  - name: SG2X SLOW DNS
-    url: http://sg3ray.serverssh.net/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sgx1.serverssh.net
-    url: http://sgx1.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sgx2.serverssh.net
-    url: http://sgx2.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: cax.serverssh.net
-    url: http://cax.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: plx.serverssh.net
-    url: http://plx.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: dex.serverssh.net
-    url: http://dex.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sgm1.serverssh.net
-    url: http://sgm1.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sgm2.serverssh.net
-    url: http://sgm2.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sgm3.serverssh.net
-    url: http://sgm3.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sgm4.serverssh.net
-    url: http://sgm4.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sgm5.serverssh.net
-    url: http://sgm5.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sgm6.serverssh.net
-    url: http://sgm6.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sg1vpn.serverssh.net
-    url: http://sg1vpn.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sg2vpn.serverssh.net
-    url: http://sg2vpn.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sg1socks.serverssh.net
-    url: http://sg1socks.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
-  - name: sg2socks.serverssh.net
-    url: http://sg2socks.serverssh.net:10000/
-    maxResponseTime: 5000
-    expectedStatusCodes:
-     - 400
-     - 200
-     - 301
+ - name: Serverssh.net - Website
+   check: "tcp-ping"
+   url: serverssh.net
+ - name: sg1.serverssh.net
+   check: "tcp-ping"
+   url: sg1.serverssh.net
+ - name: sg2.serverssh.net
+   check: "tcp-ping"
+   url: sg2.serverssh.net
+ - name: sg3.serverssh.net
+   check: "tcp-ping"
+   url: sg3.serverssh.net
+ - name: sgx1.serverssh.net
+   check: "tcp-ping"
+   url: sgx1.serverssh.net
+ - name: sgx2.serverssh.net
+   check: "tcp-ping"
+   url: sgx2.serverssh.net
+ - name: sgm1.serverssh.net
+   check: "tcp-ping"
+   url: sgm1.serverssh.net
+ - name: sgm2.serverssh.net
+   check: "tcp-ping"
+   url: sgm2.serverssh.net
+ - name: sgm3.serverssh.net
+   check: "tcp-ping"
+   url: sgm3.serverssh.net
+ - name: sg1socks.serverssh.net
+   check: "tcp-ping"
+   url: sg1socks.serverssh.net
+ - name: sgx3.serverssh.net
+   check: "tcp-ping"
+   url: sgx3.serverssh.net
+ - name: sg2socks.serverssh.net
+   check: "tcp-ping"
+   url: sg2socks.serverssh.net
+ - name: sg1ray.serverip.my.id
+   check: "tcp-ping"
+   url: sg1ray.serverip.my.id
+ - name: sg2ray.serverip.my.id
+   check: "tcp-ping"
+   url: sg2ray.serverip.my.id
+ - name: sg3ray.serverip.my.id
+   check: "tcp-ping"
+   url: sg3ray.serverip.my.id
+ - name: ukray.serverip.my.id
+   check: "tcp-ping"
+   url: ukray.serverip.my.id
+ - name: caray.serverip.my.id
+   check: "tcp-ping"
+   url: caray.serverip.my.id
+ - name: sg1vpn.serverssh.net
+   check: "tcp-ping"
+   url: sg1vpn.serverssh.net
+ - name: sg2vpn.serverssh.net
+   check: "tcp-ping"
+   url: sg2vpn.serverssh.net
+ - name: ca.serverssh.net
+   check: "tcp-ping"
+   url: ca.serverssh.net
+ - name: sg1ray.serverssh.net
+   check: "tcp-ping"
+   url: sg1ray.serverssh.net
+ - name: geray.serverip.my.id
+   check: "tcp-ping"
+   url: geray.serverip.my.id
+ - name: ge.serverssh.net
+   check: "tcp-ping"
+   url: ge.serverssh.net
+ - name: fr.serverssh.net
+   check: "tcp-ping"
+   url: fr.serverssh.net
+ - name: po.serverssh.net
+   check: "tcp-ping"
+   url: po.serverssh.net
+ - name: cax.serverssh.net
+   check: "tcp-ping"
+   url: cax.serverssh.net
+ - name: frx.serverssh.net
+   check: "tcp-ping"
+   url: frx.serverssh.net
+ - name: plx.serverssh.net
+   check: "tcp-ping"
+   url: plx.serverssh.net
+ - name: dex.serverssh.net
+   check: "tcp-ping"
+   url: dex.serverssh.net
+ - name: sgm4.serverssh.net
+   check: "tcp-ping"
+   url: sgm4.serverssh.net
+ - name: sgm5.serverssh.net
+   check: "tcp-ping"
+   url: sgm5.serverssh.net
+ - name: sgm6.serverssh.net
+   check: "tcp-ping"
+   url: sgm6.serverssh.net
+ - name: sgm1ray.serverip.my.id
+   check: "tcp-ping"
+   url: sgm1ray.serverip.my.id
+ - name: sg3ray.serverssh.net
+   check: "tcp-ping"
+   url: sg3ray.serverssh.net
+ - name: sg1.serverssh.net
+   check: "tcp-ping"
+   url: sg1.serverssh.net
+ - name: sg2.serverssh.net
+   check: "tcp-ping"
+   url: sg2.serverssh.net
+ - name: ca.serverssh.net
+   check: "tcp-ping"
+   url: ca.serverssh.net
+ - name: fr.serverssh.net
+   check: "tcp-ping"
+   url: fr.serverssh.net
+ - name: ge.serverssh.net
+   check: "tcp-ping"
+   url: ge.serverssh.net
+ - name: ukray.serverssh.net
+   check: "tcp-ping"
+   url: ukray.serverssh.net
+ - name: idvpn.serverssh.net
+   check: "tcp-ping"
+   url: idvpn.serverssh.net
+ - name: sg1grpc.serverip.my.id
+   check: "tcp-ping"
+   url: sg1grpc.serverip.my.id
+ - name: sg2grpc.serverip.my.id
+   check: "tcp-ping"
+   url: sg2grpc.serverip.my.id
+ - name: ca1grpc.serverip.my.id
+   check: "tcp-ping"
+   url: ca1grpc.serverip.my.id
+ - name: degrpc.serverip.my.id
+   check: "tcp-ping"
+   url: degrpc.serverip.my.id
+ - name: ukgrpc.serverip.my.id
+   check: "tcp-ping"
+   url: ukgrpc.serverip.my.id
+ - name: sgmgrpc.serverip.my.id
+   check: "tcp-ping"
+   url: sgmgrpc.serverip.my.id
+ - name: sg1ray.serverip.my.id
+   check: "tcp-ping"
+   url: sg1ray.serverip.my.id
+ - name: sg2ray.serverip.my.id
+   check: "tcp-ping"
+   url: sg2ray.serverip.my.id
+ - name: sg3ray.serverip.my.id
+   check: "tcp-ping"
+   url: sg3ray.serverip.my.id
+ - name: ukray.serverip.my.id
+   check: "tcp-ping"
+   url: ukray.serverip.my.id
+ - name: caray.serverip.my.id
+   check: "tcp-ping"
+   url: caray.serverip.my.id
+ - name: geray.serverip.my.id
+   check: "tcp-ping"
+   url: geray.serverip.my.id
+ - name: sgm1ray.serverip.my.id
+   check: "tcp-ping"
+   url: sgm1ray.serverip.my.id
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
