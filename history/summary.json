@@ -1129,10 +1129,10 @@
     "url": "sgm1ray.serverip.my.id",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "sgm1ray-serverip-my-id",
-    "status": "up",
+    "status": "down",
     "uptime": "99.96%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
     "time": 238,
@@ -1141,6 +1141,7 @@
     "timeMonth": 314,
     "timeYear": 238,
     "dailyMinutesDown": {
+      "2023-05-25": 1,
       "2023-04-05": 40,
       "2023-02-04": 37
     }
@@ -1887,10 +1888,10 @@
     "url": "sgm1ray.serverip.my.id",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "sgm1ray-serverip-my-id",
-    "status": "up",
+    "status": "down",
     "uptime": "99.96%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
     "time": 238,
@@ -1899,6 +1900,7 @@
     "timeMonth": 314,
     "timeYear": 238,
     "dailyMinutesDown": {
+      "2023-05-25": 1,
       "2023-04-05": 40,
       "2023-02-04": 37
     }
