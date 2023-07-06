@@ -1,7 +1,7 @@
 url: sg1grpc.serverip.my.id
-status: up
-code: 200
-responseTime: 256
-lastUpdated: 2023-07-06T03:39:12.924Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2023-07-06T05:19:32.101Z
 startTime: Mon Jan 16 2023 10:58:10 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
