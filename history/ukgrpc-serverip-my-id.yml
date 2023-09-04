@@ -1,7 +1,7 @@
 url: ukgrpc.serverip.my.id
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-09-03T23:18:33.657Z
+status: up
+code: 200
+responseTime: 161
+lastUpdated: 2023-09-04T15:26:25.881Z
 startTime: 2023-01-16T10:58:15.000Z
 generator: Upptime <https://github.com/upptime/upptime>
