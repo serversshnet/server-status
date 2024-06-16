@@ -1,7 +1,7 @@
 url: ukray.serverip.my.id
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-06-16T11:33:22.699Z
+status: up
+code: 200
+responseTime: 84
+lastUpdated: 2024-06-16T11:38:20.594Z
 startTime: 2023-01-16T10:56:25.000Z
 generator: Upptime <https://github.com/upptime/upptime>
