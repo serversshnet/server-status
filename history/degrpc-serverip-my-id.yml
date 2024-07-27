@@ -1,7 +1,7 @@
 url: degrpc.serverip.my.id
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-07-26T23:14:28.400Z
+status: up
+code: 200
+responseTime: 109
+lastUpdated: 2024-07-27T17:49:58.548Z
 startTime: 2023-01-16T10:58:14.000Z
 generator: Upptime <https://github.com/upptime/upptime>
