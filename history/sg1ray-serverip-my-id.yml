@@ -1,7 +1,7 @@
 url: sg1ray.serverip.my.id
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-11-27T00:09:57.808Z
+status: up
+code: 200
+responseTime: 298
+lastUpdated: 2024-11-27T02:56:23.406Z
 startTime: 2023-01-16T10:56:20.000Z
 generator: Upptime <https://github.com/upptime/upptime>
